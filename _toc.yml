@@ -45,24 +45,24 @@ sections:
   title: Simulation and Data Design
 - file: content/ch/04/modeling_intro
   sections:
-  - file: content/ch/04/modeling_simple.ipynb
+  - file: content/ch/04/modeling_simple
     title: The Constant Model
-  - file: content/ch/04/modeling_loss_functions.ipynb
+  - file: content/ch/04/modeling_loss_functions
     title: Minimizing Loss
-  - file: content/ch/04/modeling_summary.ipynb
+  - file: content/ch/04/modeling_summary
     title: Summary
   title: Modeling with Summary Statistics
 - file: content/ch/05/bus_intro
   sections:
-  - file: content/ch/05/bus_scope.ipynb
+  - file: content/ch/05/bus_scope
     title: Question and Scope
-  - file: content/ch/05/bus_clean.ipynb
+  - file: content/ch/05/bus_clean
     title: Data Wrangling
-  - file: content/ch/05/bus_eda.ipynb
+  - file: content/ch/05/bus_eda
     title: Exploring Bus Times
-  - file: content/ch/05/bus_modeling.ipynb
+  - file: content/ch/05/bus_modeling
     title: Modeling Wait Times
-  - file: content/ch/05/bus_summary.ipynb
+  - file: content/ch/05/bus_summary
     title: Summary
   title: "Case Study: Why Is My Bus Always Late?"
 - file: content/ch/06/pandas_intro
