@@ -15,6 +15,11 @@ These instructions were tested for OSX 10.15. We assume that you know how to
 run commands on the `bash` command line. We also assume you have the following
 command-line tools installed:
 
+If you are setting this repo up on Windows, use the Conda-based guide in
+[`SETUP_WINDOWS.md`](./SETUP_WINDOWS.md) and the repo-compatible
+[`environment-windows.yml`](./environment-windows.yml) instead of following the
+macOS environment steps below verbatim.
+
 - `conda`, the Python package manager ([installation instructions for `mamba`,
   which implements a much faster version of `conda`][conda])
 - `git`, the version control tool ([installation instructions][git])
