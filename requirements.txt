@@ -1,5 +1,8 @@
 # These requirements are sufficient to build the book but not to run
 # all of the code. See environment.yml for the complete book dependencies.
+# On Windows, prefer environment-windows.yml because this older Jupyter Book
+# stack is sensitive to transitive dependency drift and is more reliable when
+# solved by Conda than by pip alone.
 jupyter-book==0.13.1
 ghp-import==2.1.0
 sphinxext-rediraffe==0.2.5
