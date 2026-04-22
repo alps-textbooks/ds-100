@@ -128,7 +128,7 @@ def plots_in_row(figures, width=700, height=250, **kwargs):
     _clear_props(traces)
     for i, trace in enumerate(traces):
         fig.add_trace(trace, row=1, col=i + 1)
-    return fig
+    return fig.show()
 
 
 def left_right(left, right, width=700, height=250, **kwargs):
@@ -138,7 +138,7 @@ def left_right(left, right, width=700, height=250, **kwargs):
 
 def margin(fig, **kwargs):
     """Set margins for a plotly figure"""
-    return fig.update_layout(margin=kwargs)
+    return fig.update_layout(margin=kwargs).show()
 
 
 def title(fig, label, **kwargs):
@@ -148,7 +148,7 @@ def title(fig, label, **kwargs):
             "text": label,
             **kwargs,
         }
-    )
+    ).show()
 
 
 def xlabel(fig, label, **kwargs):
