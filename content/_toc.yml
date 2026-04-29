@@ -25,6 +25,7 @@ parts:
     - file: ch/02/data_scope_natural
     - file: ch/02/data_scope_accuracy
     - file: ch/02/data_scope_summary
+    - file: ch/02/data_scope_exercises
   - file: ch/03/theory_intro
     sections:
     - file: ch/03/theory_urn
@@ -32,11 +33,13 @@ parts:
     - file: ch/03/theory_vaccine_efficacy
     - file: ch/03/theory_measurement_error
     - file: ch/03/theory_summary
+    - file: ch/03/theory_exercises
   - file: ch/04/modeling_intro
     sections:
     - file: ch/04/modeling_simple.ipynb
     - file: ch/04/modeling_loss_functions.ipynb
     - file: ch/04/modeling_summary.ipynb
+    - file: ch/04/modeling_exercises
   - file: ch/05/bus_intro
     sections:
     - file: ch/05/bus_scope.ipynb
@@ -44,6 +47,7 @@ parts:
     - file: ch/05/bus_eda.ipynb
     - file: ch/05/bus_modeling.ipynb
     - file: ch/05/bus_summary.ipynb
+    - file: ch/05/bus_exercises
 
 - caption: Rectangular Data
   numbered: true
@@ -56,6 +60,7 @@ parts:
     - file: ch/06/pandas_transforming
     - file: ch/06/pandas_other_reps
     - file: ch/06/pandas_summary
+    - file: ch/06/pandas_exercises
   - file: ch/07/sql_intro
     sections:
     - file: ch/07/sql_subsetting
@@ -63,6 +68,7 @@ parts:
     - file: ch/07/sql_joining
     - file: ch/07/sql_transforming
     - file: ch/07/sql_summary
+    - file: ch/07/sql_exercises
 
 - caption: Understanding The Data
   numbered: true
@@ -113,6 +119,7 @@ parts:
     - file: ch/12/pa_eda
     - file: ch/12/pa_modeling
     - file: ch/12/pa_conclusion
+    - file: ch/12/pa_exercises
 
 - caption: Other Data Sources
   numbered: true
@@ -124,6 +131,7 @@ parts:
     - file: ch/13/text_regex
     - file: ch/13/text_sotu
     - file: ch/13/text_summary
+    - file: ch/13/text_exercises
   - file: ch/14/web_intro
     sections:
     - file: ch/14/web_netCDF
@@ -147,6 +155,7 @@ parts:
     - file: ch/15/linear_feature_eng
     - file: ch/15/linear_categorical
     - file: ch/15/linear_summary
+    - file: ch/15/linear_exercises
   - file: ch/16/ms_intro
     sections:
     - file: ch/16/ms_overfitting
@@ -164,6 +173,7 @@ parts:
     - file: ch/17/inf_pred_gen_PI
     - file: ch/17/inf_pred_gen_prob
     - file: ch/17/inf_pred_gen_summary
+    - file: ch/17/inf_pred_gen_Exercises
   - file: ch/18/donkey_intro
     sections:
     - file: ch/18/donkey_scope
@@ -171,6 +181,7 @@ parts:
     - file: ch/18/donkey_eda
     - file: ch/18/donkey_model
     - file: ch/18/donkey_summary
+    - file: ch/18/donkey_exercises
 
 - caption: Classification
   numbered: true

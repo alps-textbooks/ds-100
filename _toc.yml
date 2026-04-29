@@ -29,6 +29,8 @@ sections:
     title: Accuracy
   - file: content/ch/02/data_scope_summary
     title: Summary
+  - file: content/ch/02/data_scope_exercises
+    title: Exercises
   title: Questions and Data Scope
 - file: content/ch/03/theory_intro
   sections:
@@ -42,6 +44,8 @@ sections:
     title: "Example: Measuring Air Quality"
   - file: content/ch/03/theory_summary
     title: Summary
+  - file: content/ch/03/theory_exercises
+    title: Exercises
   title: Simulation and Data Design
 - file: content/ch/04/modeling_intro
   sections:
@@ -51,6 +55,8 @@ sections:
     title: Minimizing Loss
   - file: content/ch/04/modeling_summary
     title: Summary
+  - file: content/ch/04/modeling_exercises
+    title: Exercises
   title: Modeling with Summary Statistics
 - file: content/ch/05/bus_intro
   sections:
@@ -64,6 +70,8 @@ sections:
     title: Modeling Wait Times
   - file: content/ch/05/bus_summary
     title: Summary
+  - file: content/ch/05/bus_exercises
+    title: Exercises
   title: "Case Study: Why Is My Bus Always Late?"
 - file: content/ch/06/pandas_intro
   sections:
@@ -79,6 +87,8 @@ sections:
     title: How Are Dataframes Different from Other Data Representations?
   - file: content/ch/06/pandas_summary
     title: Summary
+  - file: content/ch/06/pandas_exercises
+    title: Exercises
   title: Working with Dataframes Using pandas
 - file: content/ch/07/sql_intro
   sections:
@@ -92,6 +102,8 @@ sections:
     title: Transforming and Common Table Expressions
   - file: content/ch/07/sql_summary
     title: Summary
+  - file: content/ch/07/sql_exercises
+    title: Exercises
   title: Working with Relations Using SQL
 - file: content/ch/08/files_intro
   sections:
@@ -179,6 +191,8 @@ sections:
     title: Creating a Model to Correct PurpleAir Measurements
   - file: content/ch/12/pa_conclusion
     title: Summary
+  - file: content/ch/12/pa_exercises
+    title: Exercises
   title: "Case Study: How Accurate Are Air Quality Measurements?"
 - file: content/ch/13/text_intro
   sections:
@@ -192,6 +206,8 @@ sections:
     title: Text Analysis
   - file: content/ch/13/text_summary
     title: Summary
+  - file: content/ch/13/text_exercises
+    title: Exercises
   title: Working with Text
 - file: content/ch/14/web_intro
   sections:
@@ -228,6 +244,8 @@ sections:
     title: Feature Engineering for Categorical Measurements
   - file: content/ch/15/linear_summary
     title: Summary
+  - file: content/ch/15/linear_exercises
+    title: Exercises
   title: Linear Models
 - file: content/ch/16/ms_intro
   sections:
@@ -260,6 +278,8 @@ sections:
     title: Probability for Inference and Prediction
   - file: content/ch/17/inf_pred_gen_summary
     title: Summary
+  - file: content/ch/17/inf_pred_gen_Exercises
+    title: Exercises
   title: Theory for Inference and Prediction
 - file: content/ch/18/donkey_intro
   sections:
@@ -273,6 +293,8 @@ sections:
     title: Modeling a Donkey's Weight
   - file: content/ch/18/donkey_summary
     title: Summary
+  - file: content/ch/18/donkey_exercises
+    title: Exercises
   title: "Case Study: How to Weigh a Donkey"
 - file: content/ch/19/class_intro
   sections:
