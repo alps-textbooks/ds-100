@@ -1,0 +1,347 @@
+format: jb-article
+root: content/intro
+title: Introduction
+options:
+  numbered: true
+sections:
+- file: content/preface
+  title: Preface
+- file: content/ch/01/lifecycle_intro
+  sections:
+  - file: content/ch/01/lifecycle_cycle
+    title: The Stages of the Lifecycle
+  - file: content/ch/01/lifecycle_map
+    title: Examples of the Lifecycle
+  - file: content/ch/01/lifecycle_summary
+    title: Summary
+  title: The Data Science Lifecycle
+- file: content/ch/02/data_scope_intro
+  sections:
+  - file: content/ch/02/data_scope_big_data_hubris
+    title: Big Data and New Opportunities
+  - file: content/ch/02/data_scope_construct
+    title: Target Population, Access Frame, and Sample
+  - file: content/ch/02/data_scope_protocols
+    title: Instruments and Protocols
+  - file: content/ch/02/data_scope_natural
+    title: Measuring Natural Phenomena
+  - file: content/ch/02/data_scope_accuracy
+    title: Accuracy
+  - file: content/ch/02/data_scope_summary
+    title: Summary
+  - file: content/ch/02/data_scope_exercises
+    title: Exercises
+  title: Questions and Data Scope
+- file: content/ch/03/theory_intro
+  sections:
+  - file: content/ch/03/theory_urn
+    title: The Urn Model
+  - file: content/ch/03/theory_election
+    title: "Example: Simulating Election Poll Bias and Variance"
+  - file: content/ch/03/theory_vaccine_efficacy
+    title: "Example: Simulating a Randomized Trial for a Vaccine"
+  - file: content/ch/03/theory_measurement_error
+    title: "Example: Measuring Air Quality"
+  - file: content/ch/03/theory_summary
+    title: Summary
+  - file: content/ch/03/theory_exercises
+    title: Exercises
+  title: Simulation and Data Design
+- file: content/ch/04/modeling_intro
+  sections:
+  - file: content/ch/04/modeling_simple
+    title: The Constant Model
+  - file: content/ch/04/modeling_loss_functions
+    title: Minimizing Loss
+  - file: content/ch/04/modeling_summary
+    title: Summary
+  - file: content/ch/04/modeling_exercises
+    title: Exercises
+  title: Modeling with Summary Statistics
+- file: content/ch/05/bus_intro
+  sections:
+  - file: content/ch/05/bus_scope
+    title: Question and Scope
+  - file: content/ch/05/bus_clean
+    title: Data Wrangling
+  - file: content/ch/05/bus_eda
+    title: Exploring Bus Times
+  - file: content/ch/05/bus_modeling
+    title: Modeling Wait Times
+  - file: content/ch/05/bus_summary
+    title: Summary
+  - file: content/ch/05/bus_exercises
+    title: Exercises
+  title: "Case Study: Why Is My Bus Always Late?"
+- file: content/ch/06/pandas_intro
+  sections:
+  - file: content/ch/06/pandas_subsetting
+    title: Subsetting
+  - file: content/ch/06/pandas_aggregating
+    title: Aggregating
+  - file: content/ch/06/pandas_joining
+    title: Joining
+  - file: content/ch/06/pandas_transforming
+    title: Transforming
+  - file: content/ch/06/pandas_other_reps
+    title: How Are Dataframes Different from Other Data Representations?
+  - file: content/ch/06/pandas_summary
+    title: Summary
+  - file: content/ch/06/pandas_exercises
+    title: Exercises
+  title: Working with Dataframes Using pandas
+- file: content/ch/07/sql_intro
+  sections:
+  - file: content/ch/07/sql_subsetting
+    title: Subsetting
+  - file: content/ch/07/sql_aggregating
+    title: Aggregating
+  - file: content/ch/07/sql_joining
+    title: Joining
+  - file: content/ch/07/sql_transforming
+    title: Transforming and Common Table Expressions
+  - file: content/ch/07/sql_summary
+    title: Summary
+  - file: content/ch/07/sql_exercises
+    title: Exercises
+  title: Working with Relations Using SQL
+- file: content/ch/08/files_intro
+  sections:
+  - file: content/ch/08/files_datasets
+    title: Data Source Examples
+  - file: content/ch/08/files_formats
+    title: File Formats
+  - file: content/ch/08/files_encoding
+    title: File Encoding
+  - file: content/ch/08/files_size
+    title: File Size
+  - file: content/ch/08/files_command_line
+    title: The Shell and Command-Line Tools
+  - file: content/ch/08/files_granularity
+    title: Table Shape and Granularity
+  - file: content/ch/08/files_summary
+    title: Summary
+  title: Wrangling Files
+- file: content/ch/09/wrangling_intro
+  sections:
+  - file: content/ch/09/wrangling_co2
+    title: "Example: Wrangling CO<sub>2</sub> Measurements from the Mauna Loa Observatory"
+  - file: content/ch/09/wrangling_checks
+    title: Quality Checks
+  - file: content/ch/09/wrangling_missing
+    title: Missing Values and Records
+  - file: content/ch/09/wrangling_transformations
+    title: Transformations and Timestamps
+  - file: content/ch/09/wrangling_structure
+    title: Modifying Structure
+  - file: content/ch/09/wrangling_restaurants
+    title: "Example: Wrangling Restaurant Safety Violations"
+  - file: content/ch/09/wrangling_summary
+    title: Summary
+  title: Wrangling Dataframes
+- file: content/ch/10/eda_intro
+  sections:
+  - file: content/ch/10/eda_feature_types
+    title: Feature Types
+  - file: content/ch/10/eda_distributions
+    title: What to Look For in a Distribution
+  - file: content/ch/10/eda_relationships
+    title: What to Look For in a Relationship
+  - file: content/ch/10/eda_multi
+    title: Comparisons in Multivariate Settings
+  - file: content/ch/10/eda_guidelines
+    title: Guidelines for Exploration
+  - file: content/ch/10/eda_example
+    title: "Example: Sale Prices for Houses"
+  - file: content/ch/10/eda_summary
+    title: Summary
+  title: Exploratory Data Analysis
+- file: content/ch/11/viz_intro
+  sections:
+  - file: content/ch/11/viz_scale
+    title: Choosing Scale to Reveal Structure
+  - file: content/ch/11/viz_smoothing
+    title: Smoothing and Aggregating Data
+  - file: content/ch/11/viz_comparisons
+    title: Facilitating Meaningful Comparisons
+  - file: content/ch/11/viz_data_design
+    title: Incorporating the Data Design
+  - file: content/ch/11/viz_context
+    title: Adding Context
+  - file: content/ch/11/viz_plotly
+    title: Creating Plots Using plotly
+  - file: content/ch/11/viz_other_tools
+    title: Other Tools for Visualization
+  - file: content/ch/11/viz_summary
+    title: Summary
+  title: Data Visualization
+- file: content/ch/12/pa_intro
+  sections:
+  - file: content/ch/12/pa_scope
+    title: Question, Design, and Scope
+  - file: content/ch/12/pa_collocated
+    title: Finding Collocated Sensors
+  - file: content/ch/12/pa_cleaning_aqs
+    title: Wrangling and Cleaning AQS Sensor Data
+  - file: content/ch/12/pa_cleaning_purpleair
+    title: Wrangling PurpleAir Sensor Data
+  - file: content/ch/12/pa_eda
+    title: Exploring PurpleAir and AQS Measurements
+  - file: content/ch/12/pa_modeling
+    title: Creating a Model to Correct PurpleAir Measurements
+  - file: content/ch/12/pa_conclusion
+    title: Summary
+  - file: content/ch/12/pa_exercises
+    title: Exercises
+  title: "Case Study: How Accurate Are Air Quality Measurements?"
+- file: content/ch/13/text_intro
+  sections:
+  - file: content/ch/13/text_examples
+    title: Examples of Text and Tasks
+  - file: content/ch/13/text_strings
+    title: String Manipulation
+  - file: content/ch/13/text_regex
+    title: Regular Expressions
+  - file: content/ch/13/text_sotu
+    title: Text Analysis
+  - file: content/ch/13/text_summary
+    title: Summary
+  - file: content/ch/13/text_exercises
+    title: Exercises
+  title: Working with Text
+- file: content/ch/14/web_intro
+  sections:
+  - file: content/ch/14/web_netCDF
+    title: NetCDF Data
+  - file: content/ch/14/web_json
+    title: JSON Data
+  - file: content/ch/14/web_http
+    title: HTTP
+  - file: content/ch/14/web_rest
+    title: REST
+  - file: content/ch/14/web_html
+    title: XML, HTML, and XPath
+  - file: content/ch/14/web_summary
+    title: Summary
+  title: Data Exchange
+- file: content/ch/15/linear_intro
+  sections:
+  - file: content/ch/15/linear_simple
+    title: Simple Linear Model
+  - file: content/ch/15/linear_pa
+    title: "Example: A Simple Linear Model for Air Quality"
+  - file: content/ch/15/linear_simple_fit
+    title: Fitting the Simple Linear Model
+  - file: content/ch/15/linear_multi
+    title: Multiple Linear Model
+  - file: content/ch/15/linear_multi_fit
+    title: Fitting the Multiple Linear Model
+  - file: content/ch/15/linear_case
+    title: "Example: Where Is the Land of Opportunity?"
+  - file: content/ch/15/linear_feature_eng
+    title: Feature Engineering for Numeric Measurements
+  - file: content/ch/15/linear_categorical
+    title: Feature Engineering for Categorical Measurements
+  - file: content/ch/15/linear_summary
+    title: Summary
+  - file: content/ch/15/linear_exercises
+    title: Exercises
+  title: Linear Models
+- file: content/ch/16/ms_intro
+  sections:
+  - file: content/ch/16/ms_overfitting
+    title: Overfitting
+  - file: content/ch/16/ms_train_test
+    title: Train-Test Split
+  - file: content/ch/16/ms_cv
+    title: Cross-Validation
+  - file: content/ch/16/ms_regularization
+    title: Regularization
+  - file: content/ch/16/ms_risk
+    title: Model Bias and Variance
+  - file: content/ch/16/ms_summary
+    title: Summary
+  title: Model Selection
+- file: content/ch/17/inf_pred_gen_intro
+  sections:
+  - file: content/ch/17/inf_pred_gen_dist
+    title: "Distributions: Population, Empirical, Sampling"
+  - file: content/ch/17/inf_pred_gen_HT
+    title: Basics of Hypothesis Testing
+  - file: content/ch/17/inf_pred_gen_boot
+    title: Bootstrapping for Inference
+  - file: content/ch/17/inf_pred_gen_CI
+    title: Basics of Confidence Intervals
+  - file: content/ch/17/inf_pred_gen_PI
+    title: Basics of Prediction Intervals
+  - file: content/ch/17/inf_pred_gen_prob
+    title: Probability for Inference and Prediction
+  - file: content/ch/17/inf_pred_gen_summary
+    title: Summary
+  - file: content/ch/17/inf_pred_gen_Exercises
+    title: Exercises
+  title: Theory for Inference and Prediction
+- file: content/ch/18/donkey_intro
+  sections:
+  - file: content/ch/18/donkey_scope
+    title: Donkey Study Question and Scope
+  - file: content/ch/18/donkey_clean
+    title: Wrangling and Transforming
+  - file: content/ch/18/donkey_eda
+    title: Exploring
+  - file: content/ch/18/donkey_model
+    title: Modeling a Donkey's Weight
+  - file: content/ch/18/donkey_summary
+    title: Summary
+  - file: content/ch/18/donkey_exercises
+    title: Exercises
+  title: "Case Study: How to Weigh a Donkey"
+- file: content/ch/19/class_intro
+  sections:
+  - file: content/ch/19/class_example
+    title: "Example: Wind-Damaged Trees"
+  - file: content/ch/19/class_pred
+    title: Modeling and Classification
+  - file: content/ch/19/class_log_model
+    title: Modeling Proportions (and Probabilities)
+  - file: content/ch/19/class_loss
+    title: A Loss Function for the Logistic Model
+  - file: content/ch/19/class_dr
+    title: From Probabilities to Classification
+  - file: content/ch/19/class_summary
+    title: Summary
+  title: Classification
+- file: content/ch/20/gd_intro
+  sections:
+  - file: content/ch/20/gd_basics
+    title: Gradient Descent Basics
+  - file: content/ch/20/gd_example
+    title: Minimizing Huber Loss
+  - file: content/ch/20/gd_convex
+    title: Convex and Differentiable Loss Functions
+  - file: content/ch/20/gd_alternative
+    title: Variants of Gradient Descent
+  - file: content/ch/20/gd_summary
+    title: Summary
+  title: Numerical Optimization
+- file: content/ch/21/fake_news_intro
+  sections:
+  - file: content/ch/21/fake_news_question
+    title: Question and Scope
+  - file: content/ch/21/fake_news_data
+    title: Obtaining and Wrangling the Data
+  - file: content/ch/21/fake_news_exploring
+    title: Exploring the Data
+  - file: content/ch/21/fake_news_modeling
+    title: Modeling
+  - file: content/ch/21/fake_news_summary
+    title: Summary
+  title: "Case Study: Detecting Fake News"
+- file: content/additional_resources
+  title: Additional Material
+- file: content/data_sources
+  title: Data Sources
+- file: content/ch/a01/prob_review
+  title: Probability Review
+- file: content/ch/a02/vector_space_review
+  title: Vector Space Review

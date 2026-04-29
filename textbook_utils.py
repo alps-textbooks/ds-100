@@ -5,12 +5,19 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
+import statsmodels
 import ipywidgets as widgets
 from ipywidgets import interact, interactive, fixed, interact_manual
 from IPython import get_ipython
 from IPython.display import display, HTML
 from matplotlib_inline.backend_inline import set_matplotlib_formats
-import myst_nb
+
+# `myst_nb` is needed for book builds, but notebook users may not have the
+# full Jupyter Book toolchain installed locally.
+# try:
+#     import myst_nb  # noqa: F401
+# except ModuleNotFoundError:
+#      myst_nb = None
 
 import plotly
 import plotly.graph_objects as go
@@ -34,8 +41,10 @@ pio.templates["book"] = go.layout.Template(
 pio.templates.default = "simple_white+book"
 
 # set up matplotlib defaults
-get_ipython().run_line_magic("matplotlib", "inline")
-set_matplotlib_formats("svg")
+ipython = get_ipython()
+if ipython is not None:
+    ipython.run_line_magic("matplotlib", "inline")
+    set_matplotlib_formats("svg")
 sns.set_style("whitegrid")
 plt.rcParams["figure.figsize"] = (4, 3)
 
