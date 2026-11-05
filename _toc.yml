@@ -345,3 +345,5 @@ sections:
   title: Probability Review
 - file: content/ch/a02/vector_space_review
   title: Vector Space Review
+- file: about-this-book
+  title: About This Book
