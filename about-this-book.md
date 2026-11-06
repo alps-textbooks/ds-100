@@ -41,6 +41,7 @@ This edition differs from its source so that the book works on Alps, where its c
 - cells shown for reference, when they need something the browser cannot do
 - cells marked as expected to fail, such as a blank for the reader to fill in
 - corrections to Markdown or code, so that a page renders and runs
+- corrections to typos, links and unclear wording in the text and exercises
 
 The numbering of the book's chapters is not affected: this page comes after them. The source above shows the book as its authors published it.
 
