@@ -10,7 +10,7 @@ Learning Data Science is an introductory textbook for data science. It covers fo
 
 | At a glance | |
 |---|---|
-| **161 pages** | The book's chapters and sections |
+| **160 pages** | The book's chapters and sections |
 | **940 code cells** | Python that runs in the browser, apart from any cells shown for reference |
 
 ## How to Use It
@@ -40,6 +40,7 @@ This edition differs from its source so that the book works on Alps, where its c
 - data read from a place the browser can reach, or replaced where the original can no longer be loaded
 - cells shown for reference, when they need something the browser cannot do
 - cells marked as expected to fail, such as a blank for the reader to fill in
+- written exercises shown, where possible, as question cards with a box for the reader's answer, which changes their layout but not their wording
 - corrections to Markdown or code, so that a page renders and runs
 - corrections to typos, links and unclear wording in the text and exercises
 

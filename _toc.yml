@@ -29,8 +29,6 @@ sections:
     title: Accuracy
   - file: content/ch/02/data_scope_summary
     title: Summary
-  - file: content/ch/02/data_scope_exercises
-    title: Exercises
   title: Questions and Data Scope
 - file: content/ch/03/theory_intro
   sections:
